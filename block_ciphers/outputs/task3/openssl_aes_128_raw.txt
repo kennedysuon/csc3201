@@ -1,0 +1,134 @@
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 16 -evp aes-128-ecb
++H:16
++F:25:AES-128-ECB:1668621920.00
+
++DT:AES-128-ECB:1:16
++R:104288870:AES-128-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 32 -evp aes-128-ecb
++H:32
++F:25:AES-128-ECB:3075511808.00
+
++DT:AES-128-ECB:1:32
++R:96109744:AES-128-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 64 -evp aes-128-ecb
++H:64
++F:25:AES-128-ECB:5881370624.00
+
++DT:AES-128-ECB:1:64
++R:91896416:AES-128-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 128 -evp aes-128-ecb
++H:128
++F:25:AES-128-ECB:9417491968.00
+
++DT:AES-128-ECB:1:128
++R:73574156:AES-128-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 256 -evp aes-128-ecb
++H:256
++F:25:AES-128-ECB:12915256320.00
+
++DT:AES-128-ECB:1:256
++R:50450220:AES-128-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 512 -evp aes-128-ecb
++H:512
++F:25:AES-128-ECB:16844631040.00
+
++DT:AES-128-ECB:1:512
++R:32899670:AES-128-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 1024 -evp aes-128-ecb
++H:1024
++F:25:AES-128-ECB:18979407081.19
+
++DT:AES-128-ECB:1:1024
++R:18719923:AES-128-ECB:1.010000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 2048 -evp aes-128-ecb
++H:2048
++F:25:AES-128-ECB:20783288320.00
+
++DT:AES-128-ECB:1:2048
++R:10148090:AES-128-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 4096 -evp aes-128-ecb
++H:4096
++F:25:AES-128-ECB:21454508032.00
+
++DT:AES-128-ECB:1:4096
++R:5237917:AES-128-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 8192 -evp aes-128-ecb
++H:8192
++F:25:AES-128-ECB:21568140926.73
+
++DT:AES-128-ECB:1:8192
++R:2659158:AES-128-ECB:1.010000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 16384 -evp aes-128-ecb
++H:16384
++F:25:AES-128-ECB:22103588864.00
+
++DT:AES-128-ECB:1:16384
++R:1349096:AES-128-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 32768 -evp aes-128-ecb
++H:32768
++F:25:AES-128-ECB:22257827840.00
+
++DT:AES-128-ECB:1:32768
++R:679255:AES-128-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 65536 -evp aes-128-ecb
++H:65536
++F:25:AES-128-ECB:22119055360.00
+
++DT:AES-128-ECB:1:65536
++R:337510:AES-128-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 131072 -evp aes-128-ecb
++H:131072
++F:25:AES-128-ECB:22191276032.00
+
++DT:AES-128-ECB:1:131072
++R:169306:AES-128-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 262144 -evp aes-128-ecb
++H:262144
++F:25:AES-128-ECB:21627142144.00
+
++DT:AES-128-ECB:1:262144
++R:82501:AES-128-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 524288 -evp aes-128-ecb
++H:524288
++F:25:AES-128-ECB:21830828032.00
+
++DT:AES-128-ECB:1:524288
++R:41639:AES-128-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 1048576 -evp aes-128-ecb
++H:1048576
++F:25:AES-128-ECB:22307405824.00
+
++DT:AES-128-ECB:1:1048576
++R:21274:AES-128-ECB:1.000000

@@ -1,0 +1,233 @@
+{
+  "environment": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.12.7",
+    "bcrypt": "5.0.0",
+    "workers": 4,
+    "chunk_size": 32,
+    "method": "shared salt groups",
+    "dictionary_size": 134849,
+    "dictionary_sha256": "082257d4ccf9af6c57c0cabb3a3780d79c6e57e54dde32b7b1ffddfea496f346"
+  },
+  "source": "shadow.pdf",
+  "source_sha256": "4976b0f7e7924af8efc8066e80bd38009e244b14184f10002fecb28c9e421099",
+  "users": [
+    {
+      "username": "Bilbo",
+      "hash": "$2b$08$J9FW66ZdPI2nrIMcOxFYI.qx268uZn.ajhymLP/YHaAsfBGP3Fnmq",
+      "algorithm": "2b",
+      "cost": 8,
+      "salt": "J9FW66ZdPI2nrIMcOxFYI.",
+      "attempts": 1024,
+      "seconds": 3.4088871249996373,
+      "password": "welcome",
+      "status": "found"
+    },
+    {
+      "username": "Gandalf",
+      "hash": "$2b$08$J9FW66ZdPI2nrIMcOxFYI.q2PW6mqALUl2/uFvV9OFNPmHGNPa6YC",
+      "algorithm": "2b",
+      "cost": 8,
+      "salt": "J9FW66ZdPI2nrIMcOxFYI.",
+      "attempts": 7040,
+      "seconds": 22.924791166999967,
+      "password": "wizard",
+      "status": "found"
+    },
+    {
+      "username": "Thorin",
+      "hash": "$2b$08$J9FW66ZdPI2nrIMcOxFYI.6B7jUcPdnqJz4tIUwKBu8lNMs5NdT9q",
+      "algorithm": "2b",
+      "cost": 8,
+      "salt": "J9FW66ZdPI2nrIMcOxFYI.",
+      "attempts": 4096,
+      "seconds": 13.369403707999481,
+      "password": "diamond",
+      "status": "found"
+    },
+    {
+      "username": "Fili",
+      "hash": "$2b$09$M9xNRFBDn0pUkPKIVCSBzuwNDDNTMWlvn7lezPr8IwVUsJbys3YZm",
+      "algorithm": "2b",
+      "cost": 9,
+      "salt": "M9xNRFBDn0pUkPKIVCSBzu",
+      "attempts": 640,
+      "seconds": 4.2058020000004035,
+      "password": "desire",
+      "status": "found"
+    },
+    {
+      "username": "Kili",
+      "hash": "$2b$09$M9xNRFBDn0pUkPKIVCSBzuPD2bsU1q8yZPlgSdQXIBILSMCbdE4Im",
+      "algorithm": "2b",
+      "cost": 9,
+      "salt": "M9xNRFBDn0pUkPKIVCSBzu",
+      "attempts": 10880,
+      "seconds": 70.74888250000004,
+      "password": "ossify",
+      "status": "found"
+    },
+    {
+      "username": "Balin",
+      "hash": "$2b$10$xGKjb94iwmlth954hEaw3O3YmtDO/mEFLIO0a0xLK1vL79LA73Gom",
+      "algorithm": "2b",
+      "cost": 10,
+      "salt": "xGKjb94iwmlth954hEaw3O",
+      "attempts": 39040,
+      "seconds": 504.50089212500006,
+      "password": "hangout",
+      "status": "found"
+    },
+    {
+      "username": "Dwalin",
+      "hash": "$2b$10$xGKjb94iwmlth954hEaw3OFxNMF64erUqDNj6TMMKVDcsETsKK5be",
+      "algorithm": "2b",
+      "cost": 10,
+      "salt": "xGKjb94iwmlth954hEaw3O",
+      "attempts": 20352,
+      "seconds": 262.5774287080003,
+      "password": "drossy",
+      "status": "found"
+    },
+    {
+      "username": "Oin",
+      "hash": "$2b$10$xGKjb94iwmlth954hEaw3OcXR2H2PRHCgo98mjS11UIrVZLKxyABK",
+      "algorithm": "2b",
+      "cost": 10,
+      "salt": "xGKjb94iwmlth954hEaw3O",
+      "attempts": 62848,
+      "seconds": 811.9527056249999,
+      "password": "ispaghul",
+      "status": "found"
+    },
+    {
+      "username": "Gloin",
+      "hash": "$2b$11$/8UByex2ktrWATZOBLZ0DuAXTQl4mWX1hfSjliCvFfGH7w1tX5/3q",
+      "algorithm": "2b",
+      "cost": 11,
+      "salt": "/8UByex2ktrWATZOBLZ0Du",
+      "attempts": 66432,
+      "seconds": 1721.806225667,
+      "password": "oversave",
+      "status": "found"
+    },
+    {
+      "username": "Dori",
+      "hash": "$2b$11$/8UByex2ktrWATZOBLZ0Dub5AmZeqtn7kv/3NCWBrDaRCFahGYyiq",
+      "algorithm": "2b",
+      "cost": 11,
+      "salt": "/8UByex2ktrWATZOBLZ0Du",
+      "attempts": 90368,
+      "seconds": 2337.3856599579995,
+      "password": "indoxylic",
+      "status": "found"
+    },
+    {
+      "username": "Nori",
+      "hash": "$2b$11$/8UByex2ktrWATZOBLZ0DuER3Ee1GdP6f30TVIXoEhvhQDwghaU12",
+      "algorithm": "2b",
+      "cost": 11,
+      "salt": "/8UByex2ktrWATZOBLZ0Du",
+      "attempts": 72320,
+      "seconds": 1872.647383874999,
+      "password": "swagsman",
+      "status": "found"
+    },
+    {
+      "username": "Ori",
+      "hash": "$2b$12$rMeWZtAVcGHLEiDNeKCz8OiERmh0dh8AiNcf7ON3O3P0GWTABKh0O",
+      "algorithm": "2b",
+      "cost": 12,
+      "salt": "rMeWZtAVcGHLEiDNeKCz8O",
+      "attempts": 122880,
+      "seconds": 6309.500226208001,
+      "password": "airway",
+      "status": "found"
+    },
+    {
+      "username": "Bifur",
+      "hash": "$2b$12$rMeWZtAVcGHLEiDNeKCz8OMoFL0k33O8Lcq33f6AznAZ/cL1LAOyK",
+      "algorithm": "2b",
+      "cost": 12,
+      "salt": "rMeWZtAVcGHLEiDNeKCz8O",
+      "attempts": 22272,
+      "seconds": 1144.6093122090006,
+      "password": "corrosible",
+      "status": "found"
+    },
+    {
+      "username": "Bofur",
+      "hash": "$2b$12$rMeWZtAVcGHLEiDNeKCz8Ose2KNe821.l2h5eLffzWoP01DlQb72O",
+      "algorithm": "2b",
+      "cost": 12,
+      "salt": "rMeWZtAVcGHLEiDNeKCz8O",
+      "attempts": 58496,
+      "seconds": 3008.4549049590005,
+      "password": "libellate",
+      "status": "found"
+    },
+    {
+      "username": "Durin",
+      "hash": "$2b$13$6ypcazOOkUT/a7EwMuIjH.qbdqmHPDAC9B5c37RT9gEw18BX6FOay",
+      "algorithm": "2b",
+      "cost": 13,
+      "salt": "6ypcazOOkUT/a7EwMuIjH.",
+      "attempts": 114560,
+      "seconds": 11758.451534291999,
+      "password": "purrone",
+      "status": "found"
+    }
+  ],
+  "groups": [
+    {
+      "prefix": "$2b$08$J9FW66ZdPI2nrIMcOxFYI.",
+      "cost": 8,
+      "next_index": 7040,
+      "attempts": 7040,
+      "seconds": 22.924791166999967,
+      "status": "found"
+    },
+    {
+      "prefix": "$2b$09$M9xNRFBDn0pUkPKIVCSBzu",
+      "cost": 9,
+      "next_index": 10880,
+      "attempts": 10880,
+      "seconds": 70.74888250000004,
+      "status": "found"
+    },
+    {
+      "prefix": "$2b$10$xGKjb94iwmlth954hEaw3O",
+      "cost": 10,
+      "next_index": 62848,
+      "attempts": 62848,
+      "seconds": 811.9527056249999,
+      "status": "found"
+    },
+    {
+      "prefix": "$2b$11$/8UByex2ktrWATZOBLZ0Du",
+      "cost": 11,
+      "next_index": 90368,
+      "attempts": 90368,
+      "seconds": 2337.3856599579995,
+      "status": "found"
+    },
+    {
+      "prefix": "$2b$12$rMeWZtAVcGHLEiDNeKCz8O",
+      "cost": 12,
+      "next_index": 122880,
+      "attempts": 122880,
+      "seconds": 6309.500226208001,
+      "status": "found",
+      "original_order_prefix": 0
+    },
+    {
+      "prefix": "$2b$13$6ypcazOOkUT/a7EwMuIjH.",
+      "cost": 13,
+      "next_index": 114560,
+      "attempts": 114560,
+      "seconds": 11758.451534291999,
+      "status": "found",
+      "original_order_prefix": 0
+    }
+  ]
+}

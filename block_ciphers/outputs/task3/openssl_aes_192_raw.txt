@@ -1,0 +1,134 @@
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 16 -evp aes-192-ecb
++H:16
++F:25:AES-192-ECB:1629334640.00
+
++DT:AES-192-ECB:1:16
++R:101833415:AES-192-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 32 -evp aes-192-ecb
++H:32
++F:25:AES-192-ECB:2822552160.00
+
++DT:AES-192-ECB:1:32
++R:88204755:AES-192-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 64 -evp aes-192-ecb
++H:64
++F:25:AES-192-ECB:5364784960.00
+
++DT:AES-192-ECB:1:64
++R:83824765:AES-192-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 128 -evp aes-192-ecb
++H:128
++F:25:AES-192-ECB:8889993472.00
+
++DT:AES-192-ECB:1:128
++R:69453074:AES-192-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 256 -evp aes-192-ecb
++H:256
++F:25:AES-192-ECB:11664245861.39
+
++DT:AES-192-ECB:1:256
++R:46019095:AES-192-ECB:1.010000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 512 -evp aes-192-ecb
++H:512
++F:25:AES-192-ECB:15028404224.00
+
++DT:AES-192-ECB:1:512
++R:29352352:AES-192-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 1024 -evp aes-192-ecb
++H:1024
++F:25:AES-192-ECB:15959323648.00
+
++DT:AES-192-ECB:1:1024
++R:15585277:AES-192-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 2048 -evp aes-192-ecb
++H:2048
++F:25:AES-192-ECB:17488291738.61
+
++DT:AES-192-ECB:1:2048
++R:8624597:AES-192-ECB:1.010000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 4096 -evp aes-192-ecb
++H:4096
++F:25:AES-192-ECB:17442718669.31
+
++DT:AES-192-ECB:1:4096
++R:4301061:AES-192-ECB:1.010000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 8192 -evp aes-192-ecb
++H:8192
++F:25:AES-192-ECB:18417041408.00
+
++DT:AES-192-ECB:1:8192
++R:2248174:AES-192-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 16384 -evp aes-192-ecb
++H:16384
++F:25:AES-192-ECB:18021199588.12
+
++DT:AES-192-ECB:1:16384
++R:1110926:AES-192-ECB:1.010000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 32768 -evp aes-192-ecb
++H:32768
++F:25:AES-192-ECB:18333368320.00
+
++DT:AES-192-ECB:1:32768
++R:559490:AES-192-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 65536 -evp aes-192-ecb
++H:65536
++F:25:AES-192-ECB:18771804160.00
+
++DT:AES-192-ECB:1:65536
++R:286435:AES-192-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 131072 -evp aes-192-ecb
++H:131072
++F:25:AES-192-ECB:18678019548.51
+
++DT:AES-192-ECB:1:131072
++R:143927:AES-192-ECB:1.010000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 262144 -evp aes-192-ecb
++H:262144
++F:25:AES-192-ECB:18092348324.75
+
++DT:AES-192-ECB:1:262144
++R:69707:AES-192-ECB:1.010000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 524288 -evp aes-192-ecb
++H:524288
++F:25:AES-192-ECB:18750111744.00
+
++DT:AES-192-ECB:1:524288
++R:35763:AES-192-ECB:1.000000
+
+
+$ /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl speed -mr -elapsed -seconds 1 -bytes 1048576 -evp aes-192-ecb
++H:1048576
++F:25:AES-192-ECB:18671992832.00
+
++DT:AES-192-ECB:1:1048576
++R:17807:AES-192-ECB:1.000000

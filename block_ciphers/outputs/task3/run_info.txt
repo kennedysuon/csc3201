@@ -1,0 +1,9 @@
+Run: My Mac M3 run
+Recorded: 2026-09-24T19:07:46.412549+00:00
+System: Darwin arm64
+OpenSSL: OpenSSL 3.4.0 22 Oct 2024 (Library: OpenSSL 3.4.0 22 Oct 2024)
+Executable: /opt/homebrew/Cellar/openssl@3/3.4.0/bin/openssl
+Seconds per measurement: 1
+AES mode: ECB encryption through OpenSSL EVP
+Timing: one elapsed time trial per setting
+Units: 1 MB = 1000000 bytes; RSA uses operations per second

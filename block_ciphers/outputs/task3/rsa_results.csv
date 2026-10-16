@@ -1,0 +1,5 @@
+key_size_bits,signing_operations_per_second,verification_operations_per_second
+1024,14809.0,302106.0
+2048,2391.0,90862.376238
+3072,820.0,43793.0
+4096,374.0,24893.069307

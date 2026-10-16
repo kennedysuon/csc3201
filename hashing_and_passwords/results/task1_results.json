@@ -1,0 +1,251 @@
+{
+  "environment": {
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "python": "3.12.14",
+    "max_entries": 8000000
+  },
+  "examples": [
+    {
+      "input": "Hello, world!",
+      "digest": "315f5bdb76d078c43b8ac0064e4a0164612b1fce77c869345bfc94c75894edd3"
+    },
+    {
+      "input": "Python",
+      "digest": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db"
+    },
+    {
+      "input": "Cryptography",
+      "digest": "b584eec728548aced5a66c0267dd520a00871b5e7b735b2d8202f86719f61857"
+    }
+  ],
+  "avalanche": [
+    {
+      "input1": "security",
+      "input2": "recurity",
+      "input_bits_different": 1,
+      "digest1": "5d2d3ceb7abe552344276d47d36a8175b7aeb250a9bf0bf00e850cd23ecf2e43",
+      "digest2": "9991486255e076c8af6ade3013a512c747a643cdb4dfc3dde6914ad4dad3cf0b",
+      "digest_bits_different": 123,
+      "digest_bytes_different": 32
+    },
+    {
+      "input1": "password",
+      "input2": "qassword",
+      "input_bits_different": 1,
+      "digest1": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+      "digest2": "500753de1463102324a99774730af64ae33e82ca40569e618bfe157142900d1d",
+      "digest_bits_different": 144,
+      "digest_bytes_different": 32
+    },
+    {
+      "input1": "Cryptography",
+      "input2": "Bryptography",
+      "input_bits_different": 1,
+      "digest1": "b584eec728548aced5a66c0267dd520a00871b5e7b735b2d8202f86719f61857",
+      "digest2": "78caf0fdff16191040d7fd361d32cc247ec3c7ad235fc9299bf0fc2c62a86aa4",
+      "digest_bits_different": 133,
+      "digest_bytes_different": 32
+    }
+  ],
+  "collisions": [
+    {
+      "bits": 8,
+      "inputs": 30,
+      "seconds": 3.682200008370273e-05,
+      "input1": "8:0:20",
+      "input2": "8:0:29",
+      "truncated_hex": "f8",
+      "completed_batches": 0
+    },
+    {
+      "bits": 10,
+      "inputs": 20,
+      "seconds": 2.5382999865541933e-05,
+      "input1": "10:0:6",
+      "input2": "10:0:19",
+      "truncated_hex": "056",
+      "completed_batches": 0
+    },
+    {
+      "bits": 12,
+      "inputs": 92,
+      "seconds": 8.324399982484465e-05,
+      "input1": "12:0:57",
+      "input2": "12:0:91",
+      "truncated_hex": "ac3",
+      "completed_batches": 0
+    },
+    {
+      "bits": 14,
+      "inputs": 8,
+      "seconds": 1.3944000102128484e-05,
+      "input1": "14:0:1",
+      "input2": "14:0:7",
+      "truncated_hex": "3dd7",
+      "completed_batches": 0
+    },
+    {
+      "bits": 16,
+      "inputs": 206,
+      "seconds": 0.00019747999999708554,
+      "input1": "16:0:2",
+      "input2": "16:0:205",
+      "truncated_hex": "a3e8",
+      "completed_batches": 0
+    },
+    {
+      "bits": 18,
+      "inputs": 512,
+      "seconds": 0.0004615689999809547,
+      "input1": "18:0:406",
+      "input2": "18:0:511",
+      "truncated_hex": "1d0ba",
+      "completed_batches": 0
+    },
+    {
+      "bits": 20,
+      "inputs": 2805,
+      "seconds": 0.0034467610000774584,
+      "input1": "20:0:1801",
+      "input2": "20:0:2804",
+      "truncated_hex": "77051",
+      "completed_batches": 0
+    },
+    {
+      "bits": 22,
+      "inputs": 3228,
+      "seconds": 0.0028694299999187933,
+      "input1": "22:0:1405",
+      "input2": "22:0:3227",
+      "truncated_hex": "1966be",
+      "completed_batches": 0
+    },
+    {
+      "bits": 24,
+      "inputs": 4629,
+      "seconds": 0.005877929000007498,
+      "input1": "24:0:2319",
+      "input2": "24:0:4628",
+      "truncated_hex": "65b361",
+      "completed_batches": 0
+    },
+    {
+      "bits": 26,
+      "inputs": 10593,
+      "seconds": 0.012494470000092406,
+      "input1": "26:0:3237",
+      "input2": "26:0:10592",
+      "truncated_hex": "335dd00",
+      "completed_batches": 0
+    },
+    {
+      "bits": 28,
+      "inputs": 7327,
+      "seconds": 0.011379725000097096,
+      "input1": "28:0:6035",
+      "input2": "28:0:7326",
+      "truncated_hex": "b467cbb",
+      "completed_batches": 0
+    },
+    {
+      "bits": 30,
+      "inputs": 47900,
+      "seconds": 0.061908872999993037,
+      "input1": "30:0:21986",
+      "input2": "30:0:47899",
+      "truncated_hex": "041af680",
+      "completed_batches": 0
+    },
+    {
+      "bits": 32,
+      "inputs": 140346,
+      "seconds": 0.17060624300006566,
+      "input1": "32:0:103145",
+      "input2": "32:0:140345",
+      "truncated_hex": "c0ddd757",
+      "completed_batches": 0
+    },
+    {
+      "bits": 34,
+      "inputs": 97709,
+      "seconds": 0.11194769600001564,
+      "input1": "34:0:73393",
+      "input2": "34:0:97708",
+      "truncated_hex": "29bb63236",
+      "completed_batches": 0
+    },
+    {
+      "bits": 36,
+      "inputs": 238111,
+      "seconds": 0.4323830490000091,
+      "input1": "36:0:103050",
+      "input2": "36:0:238110",
+      "truncated_hex": "59f9b8dfd",
+      "completed_batches": 0
+    },
+    {
+      "bits": 38,
+      "inputs": 595553,
+      "seconds": 1.0506856100000732,
+      "input1": "38:0:120648",
+      "input2": "38:0:595552",
+      "truncated_hex": "1c33b72a81",
+      "completed_batches": 0
+    },
+    {
+      "bits": 40,
+      "inputs": 1558826,
+      "seconds": 2.1505317529999957,
+      "input1": "40:0:734654",
+      "input2": "40:0:1558825",
+      "truncated_hex": "226ef606cd",
+      "completed_batches": 0
+    },
+    {
+      "bits": 42,
+      "inputs": 3060824,
+      "seconds": 4.454515297000171,
+      "input1": "42:0:2589236",
+      "input2": "42:0:3060823",
+      "truncated_hex": "26ff6bb06b9",
+      "completed_batches": 0
+    },
+    {
+      "bits": 44,
+      "inputs": 4810293,
+      "seconds": 6.9409743710000384,
+      "input1": "44:0:1690480",
+      "input2": "44:0:4810292",
+      "truncated_hex": "37ccdbc1ea6",
+      "completed_batches": 0
+    },
+    {
+      "bits": 46,
+      "inputs": 3118753,
+      "seconds": 4.80342630999985,
+      "input1": "46:0:2534650",
+      "input2": "46:0:3118752",
+      "truncated_hex": "341d216f758b",
+      "completed_batches": 0
+    },
+    {
+      "bits": 48,
+      "inputs": 96742068,
+      "seconds": 156.18588929500015,
+      "input1": "48:12:304000",
+      "input2": "48:12:742067",
+      "truncated_hex": "05490a25a12d",
+      "completed_batches": 12
+    },
+    {
+      "bits": 50,
+      "inputs": 134467227,
+      "seconds": 337.956984313,
+      "input1": "50:16:6354586",
+      "input2": "50:16:6467226",
+      "truncated_hex": "33bfcc28b3d09",
+      "completed_batches": 16
+    }
+  ],
+  "measurement_note": "Task 1 ran alongside an earlier password search. The final Task 2 results were collected in a separate run."
+}

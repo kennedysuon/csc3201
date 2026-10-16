@@ -1,0 +1,12 @@
+Direct injection accepted: False
+Unmodified placeholder accepted: False
+Modified ciphertext accepted: True
+Changed ciphertext byte indexes: [16, 22, 27]
+P0 before: b'userid=456;userd'
+P0 after:  b'userid=456;userd'
+P1 before: b'ata=AAAAAAAAAAAA'
+P1 after:  b'2\xea\xa0\xb6e\x1c\x1cj\xc6\xb8\xc57\x9b\xe8\x1c\x0e'
+P2 before: b':admin<true:;ses'
+P2 after:  b';admin=true;;ses'
+P3 before: b'sion-id=31337'
+P3 after:  b'sion-id=31337'
