@@ -1,0 +1,30 @@
+How hard is it to solve the DHP from task 1, and what strategy would an adversary take?
+
+For q=37, an attacker can simply brute-force all 36 possible exponents to solve the discrete log which takes microseconds. 
+For the real 1024-bit q, brute force is infeasible; the best known approach is the General Number Field Sieve (GNFS), 
+a sub-exponential index-calculus algorithm. Even with GNFS, solving DLP at 1024 bits is currently far beyond available 
+computing power, which is why this parameter size is considered secure against classical attacks.
+
+Would the same strategy be used for the tiny parameters work for the large values of q and alpha? Why or why not?
+
+No the same strategy doesn't scale. Brute force's cost grows exponentially with the bit-length of q, so it only 
+works for tiny values like q=37. Index calculus (GNFS) is sub-exponential, making it the practical choice for large q but its running time still grows fast enough that 1024-bit parameters remain infeasible to break today. In short: brute 
+force for toy parameters, index calculus for real ones, and neither breaks properly-sized keys.
+
+For task 2, why were these attacks possible? What is necessary to prevent it?
+
+These attacks succeed because plain Diffie-Hellman provides no authentication 
+ Alice and Bob have no way to verify that the values they receive (Y_A, Y_B, or the parameters q, α) 
+ haven't been tampered with in transit. This makes DH secure only against a passive eavesdropper, 
+ not an active attacker who can intercept and modify messages. To prevent it, the exchange 
+ needs authentication and integrity protection  e.g., digitally signing the exchanged values 
+ (tied to a PKI/certificate system) or using an authenticated protocol built on DH, like 
+ the Station-to-Station (STS) protocol or TLS. In short: DH gives confidentiality, not authenticity, and those are not the same thing.
+
+ Question 4: Sharing an RSA modulus n across multiple users is dangerous because it links 
+ their supposedly independent keys together. If the same message is encrypted to two users 
+ sharing n (with coprime exponents e1, e2), an attacker can recover the plaintext directly 
+ from the two ciphertexts via a common modulus attack no factoring or private key needed. 
+ More broadly, if any one user's private key is ever exposed, an attacker can typically use it to factor n, 
+ which then breaks every other key sharing that same modulus. In short: reusing n turns one compromise 
+ into a compromise of everyone who shares it.
